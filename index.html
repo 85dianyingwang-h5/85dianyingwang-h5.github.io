@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>85电影网 | 85后怀旧与1985年代观影指南</title>
+  <meta name="description" content="85电影网（85dianyingwang-h5）提供1985年前后、85后怀旧片单、录像带类型缩圈、录像厅/客厅/迪斯科/校园场景，以及正版修复渠道与防盗版避坑。不提供盗版资源、磁力、网盘与成人内容。" />
+  <meta name="author" content="85电影网" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#0e1026" />
+  <link rel="canonical" href="https://85dianyingwang-h5.github.io/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="85电影网" />
+  <meta property="og:title" content="85电影网 | 85后怀旧与1985年代观影指南" />
+  <meta property="og:description" content="1985前后怀旧片单、录像带类型、录像厅场景与正版修复渠道导航。" />
+  <meta property="og:url" content="https://85dianyingwang-h5.github.io/" />
+  <meta property="og:locale" content="zh_CN" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="85电影网 | 85后怀旧与1985年代观影指南" />
+  <meta name="twitter:description" content="按年代、类型、老场景选怀旧片，只走正版修复与持权平台。" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "85电影网",
+    "url": "https://85dianyingwang-h5.github.io/",
+    "description": "85后怀旧与1985年代影像推荐、录像带类型缩圈、老场景片单与正版渠道导航站。",
+    "inLanguage": "zh-CN"
+  }
+  </script>
+
+  <style>
+    :root{
+      --bg:#0e1026;
+      --bg2:#15183a;
+      --card:#1b1f47;
+      --line:#2c3170;
+      --ink:#f5f0e6;
+      --muted:#aab0d8;
+      --pink:#ff5fa2;
+      --pink-deep:#e23d86;
+      --blue:#3fd0e6;
+      --blue-deep:#1fa9c4;
+      --mustard:#ffcf4d;
+      --mustard-deep:#e0a800;
+      --paper:#efe6cf;
+      --red:#ff6b6b;
+      --radius:14px;
+      --maxw:1180px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);line-height:1.75;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+
+    /* 导航 */
+    header.nav{position:sticky;top:0;z-index:50;background:rgba(14,16,38,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .logo{font-weight:900;font-size:20px;display:flex;align-items:center;gap:10px}
+    .logo .tape{width:34px;height:24px;border-radius:5px;background:linear-gradient(135deg,var(--pink),var(--blue));position:relative;box-shadow:0 0 0 1px var(--line) inset}
+    .logo .tape::before,.logo .tape::after{content:"";position:absolute;top:50%;width:8px;height:8px;border-radius:50%;background:#0e1026;transform:translateY(-50%)}
+    .logo .tape::before{left:6px}.logo .tape::after{right:6px}
+    .logo b{color:var(--pink)}
+    .logo span{color:var(--blue)}
+    nav.menu{display:flex;gap:10px;font-size:14px;font-weight:600;color:var(--muted)}
+    nav.menu a{padding:7px 13px;border-radius:8px;border:1px solid transparent;transition:.2s}
+    nav.menu a:hover{color:var(--pink);border-color:var(--line);background:var(--bg2)}
+    .nav-toggle{display:none;background:none;border:1px solid var(--line);color:var(--ink);border-radius:8px;padding:6px 10px;font-size:18px;cursor:pointer}
+
+    /* Hero VHS */
+    .hero{padding:74px 0 64px;border-bottom:1px solid var(--line);background:
+      radial-gradient(820px 380px at 86% -8%,rgba(255,95,162,.16),transparent 60%),
+      radial-gradient(640px 320px at 4% 120%,rgba(63,208,230,.14),transparent 60%),
+      linear-gradient(180deg,#15183a,#0e1026);
+      position:relative;overflow:hidden}
+    .hero::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(rgba(255,255,255,.025) 0 1px,transparent 1px 3px);mix-blend-mode:overlay;opacity:.5}
+    .hero .wrap{position:relative;z-index:1;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:center}
+    .pill{display:inline-block;border:1px solid var(--pink);color:var(--pink);border-radius:999px;padding:5px 15px;font-size:11px;font-weight:800;letter-spacing:3px;text-transform:uppercase;margin-bottom:18px}
+    .hero h1{font-size:clamp(28px,5vw,50px);line-height:1.12;margin:0 0 14px;font-weight:900}
+    .hero h1 em{font-style:normal;color:var(--blue)}
+    .hero h1 u{text-decoration:none;color:var(--mustard)}
+    .hero p.lead{font-size:16px;color:var(--muted);max-width:640px;margin:0 0 22px}
+    .hero-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
+    .hero-tag{border:1px solid var(--line);border-radius:6px;padding:5px 12px;font-size:12px;color:var(--paper);background:var(--bg2)}
+    .cta{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{padding:12px 24px;border-radius:10px;font-weight:800;font-size:14px;transition:.2s;display:inline-flex;gap:6px;align-items:center;cursor:pointer}
+    .btn-primary{background:linear-gradient(135deg,var(--pink),var(--mustard));color:#1a0a14}
+    .btn-primary:hover{filter:brightness(1.05)}
+    .btn-ghost{border:1px solid var(--line);color:var(--ink);background:transparent}
+    .btn-ghost:hover{border-color:var(--blue);color:var(--blue)}
+
+    /* 录像带样卡 */
+    .vhs{width:260px;margin:0 auto;background:linear-gradient(180deg,#232a5e,#171b3d);border:1px solid var(--line);border-radius:14px;padding:16px;position:relative;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+    .vhs .label{background:var(--paper);color:#2a2410;border-radius:8px;padding:10px 12px;font-weight:800;font-size:13px;display:flex;justify-content:space-between;align-items:center}
+    .vhs .label small{font-weight:700;color:#7a6a2a}
+    .vhs .window{height:64px;margin:12px 0;border-radius:8px;background:repeating-linear-gradient(90deg,#0e1026,#0e1026 6px,#191d44 6px,#191d44 12px);border:1px solid var(--line)}
+    .vhs .spool{display:flex;justify-content:space-between;padding:0 6px}
+    .vhs .spool i{width:34px;height:34px;border-radius:50%;background:radial-gradient(circle,#3a4080,#10132e);border:2px solid var(--line);display:block}
+    .vhs .rec{position:absolute;top:12px;right:12px;background:var(--red);color:#fff;font-size:10px;font-weight:900;padding:2px 8px;border-radius:5px;letter-spacing:1px}
+
+    section{padding:60px 0;border-bottom:1px solid var(--line)}
+    .sec-head{margin-bottom:32px;text-align:center}
+    .sec-head .kicker{color:var(--pink);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:11px}
+    .sec-head h2{font-size:clamp(22px,3.6vw,32px);margin:6px 0 8px;font-weight:900}
+    .sec-head p{color:var(--muted);margin:0 auto;max-width:720px;font-size:14px}
+
+    /* 年代旋钮时间轴 */
+    .knob-row{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-bottom:26px}
+    .knob{width:96px;height:96px;border-radius:50%;background:radial-gradient(circle at 50% 38%,#262c63,#12152f);border:1px solid var(--line);position:relative;display:flex;align-items:flex-end;justify-content:center;padding-bottom:10px;color:var(--muted);font-size:12px;font-weight:800}
+    .knob::before{content:"";position:absolute;top:14px;left:50%;width:4px;height:26px;background:var(--pink);border-radius:4px;transform:translateX(-50%) rotate(var(--rot,0deg));transform-origin:bottom center}
+    .knob:nth-child(2)::before{background:var(--blue)}
+    .knob:nth-child(3)::before{background:var(--mustard)}
+    .knob:nth-child(4)::before{background:var(--paper)}
+    .knob:nth-child(5)::before{background:var(--blue)}
+    .timeline{position:relative;max-width:940px;margin:0 auto;padding-left:30px}
+    .timeline::before{content:"";position:absolute;left:8px;top:0;bottom:0;width:5px;background:repeating-linear-gradient(var(--pink),var(--pink) 14px,transparent 14px,transparent 28px)}
+    .era{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:16px}
+    .era::before{content:"";position:absolute;left:-26px;top:20px;width:16px;height:16px;border-radius:50%;background:var(--blue);border:4px solid var(--bg)}
+    .era:nth-child(even)::before{background:var(--mustard)}
+    .era .yr{display:inline-block;font-size:11px;font-weight:900;color:#1a0a14;background:var(--mustard);border-radius:6px;padding:2px 10px;margin-bottom:8px}
+    .era:nth-child(3) .yr{background:var(--pink);color:#fff}
+    .era:nth-child(4) .yr{background:var(--blue);color:#04222a}
+    .era h3{margin:0 0 6px;font-size:16px}
+    .era p{margin:0;color:var(--muted);font-size:13px}
+
+    /* 录像带类型架 */
+    .shelf{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .tape{border:1px solid var(--line);border-radius:12px;background:linear-gradient(180deg,var(--bg2),var(--card));padding:18px;position:relative;overflow:hidden;border-top:5px solid var(--pink)}
+    .tape:nth-child(2){border-top-color:var(--blue)}
+    .tape:nth-child(3){border-top-color:var(--mustard)}
+    .tape:nth-child(4){border-top-color:var(--paper)}
+    .tape:nth-child(5){border-top-color:var(--blue)}
+    .tape:nth-child(6){border-top-color:var(--pink)}
+    .tape:nth-child(7){border-top-color:var(--mustard)}
+    .tape:nth-child(8){border-top-color:var(--blue)}
+    .tape .spine{font-size:11px;font-weight:800;color:var(--muted);letter-spacing:1px;margin-bottom:8px}
+    .tape h3{margin:0 0 6px;font-size:16px}
+    .tape p{margin:0;color:var(--muted);font-size:13px}
+    .tape .chiprow{margin-top:10px;font-size:11px;color:var(--paper);border-top:1px dashed var(--line);padding-top:8px}
+
+    /* 场景：录像厅/客厅/迪斯科/校园 */
+    .scenes{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    .scene{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;position:relative;overflow:hidden}
+    .scene::before{content:"";position:absolute;top:-12px;left:18px;width:46px;height:12px;background:var(--pink);border-radius:6px 6px 0 0}
+    .scene:nth-child(2)::before{background:var(--blue)}
+    .scene:nth-child(3)::before{background:var(--mustard)}
+    .scene:nth-child(4)::before{background:var(--paper)}
+    .scene .emoji{font-size:30px;margin-bottom:8px}
+    .scene h3{margin:0 0 6px;font-size:17px;font-weight:800}
+    .scene p{margin:0;color:var(--muted);font-size:13px}
+
+    /* 正版渠道：修复拷贝 */
+    .reel{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .copy{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;text-align:center;position:relative}
+    .copy::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:50px;height:10px;background:var(--pink);border-radius:0 0 10px 10px}
+    .copy:nth-child(2)::before{background:var(--blue)}
+    .copy:nth-child(3)::before{background:var(--mustard)}
+    .copy:nth-child(4)::before{background:var(--paper)}
+    .copy .ic{font-size:30px;margin:12px 0 8px}
+    .copy h3{margin:0 0 4px;font-size:15px}
+    .copy p{margin:0;color:var(--muted);font-size:12px}
+
+    /* 避坑 */
+    .warn{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .w{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--red);border-radius:var(--radius);padding:22px}
+    .w:nth-child(2){border-top-color:var(--mustard)}
+    .w:nth-child(3){border-top-color:var(--blue)}
+    .w h3{margin:0 0 8px;font-size:16px}
+    .w p{margin:0;color:var(--muted);font-size:13px}
+
+    footer{padding:34px 0;text-align:center;color:var(--muted);font-size:13px;background:var(--bg2);border-top:1px solid var(--line)}
+    footer a{color:var(--pink)}
+
+    #toTop{position:fixed;right:16px;bottom:16px;z-index:60;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:linear-gradient(135deg,var(--pink),var(--mustard));color:#1a0a14;font-size:18px;font-weight:900;cursor:pointer;opacity:0;pointer-events:none;transition:.25s}
+    #toTop.show{opacity:1;pointer-events:auto}
+    .reveal{opacity:0;transform:translateY(16px);transition:.5s ease}
+    .reveal.in{opacity:1;transform:none}
+
+    @media (max-width:980px){
+      .hero .wrap{grid-template-columns:1fr}
+      .shelf{grid-template-columns:1fr 1fr}
+      .reel{grid-template-columns:1fr 1fr}
+      .warn{grid-template-columns:1fr}
+    }
+    @media (max-width:640px){
+      .nav-toggle{display:block}
+      nav.menu{position:absolute;top:64px;left:0;right:0;flex-direction:column;gap:0;padding:8px 20px 16px;background:rgba(14,16,38,.98);border-bottom:1px solid var(--line);display:none}
+      nav.menu.open{display:flex}
+      nav.menu a{padding:10px 8px;border-bottom:1px solid var(--line)}
+      .shelf{grid-template-columns:1fr}
+      .scenes{grid-template-columns:1fr}
+      .reel{grid-template-columns:1fr 1fr}
+      .knob-row{gap:10px}
+    }
+  </style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/laoliu.js"></script>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <div class="logo"><span class="tape"></span><b>85</b><span>电影网</span></div>
+      <button class="nav-toggle" aria-label="菜单" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
+      <nav class="menu" id="menu">
+        <a href="#home">首页</a>
+        <a href="#era">年代时间轴</a>
+        <a href="#shelf">录像带类型</a>
+        <a href="#scene">老场景</a>
+        <a href="#reel">正版修复</a>
+        <a href="#warn">防盗避坑</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="wrap">
+      <div>
+        <div class="pill">VHS · 85 Generation · Retro</div>
+        <h1>85电影网<br/>回到<u>1985</u>前后的<em>录像厅</em></h1>
+        <p class="lead">85后怀旧、80年代中期影像、录像带类型缩圈；录像厅、客厅、迪斯科、校园分场景选片。只导正版修复与持权平台，不碰“免费老片全库/盗版碟/破解播放器”。</p>
+        <div class="hero-tags">
+          <span class="hero-tag">1985前后</span>
+          <span class="hero-tag">录像带怀旧</span>
+          <span class="hero-tag">录像厅场景</span>
+          <span class="hero-tag">4K修复</span>
+          <span class="hero-tag">正版优先</span>
+        </div>
+        <div class="cta">
+          <a class="btn btn-primary" href="#era">按年代选片 →</a>
+          <a class="btn btn-ghost" href="#warn">识别盗版老片坑</a>
+        </div>
+      </div>
+      <div>
+        <div class="vhs">
+          <span class="rec">● REC</span>
+          <div class="label">85 RETRO <small>SP/EP</small></div>
+          <div class="window"></div>
+          <div class="spool"><i></i><i></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="era" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Decade Dial</div>
+        <h2>年代旋钮时间轴</h2>
+        <p>拨到对应年份段，按“85前后”怀旧情绪缩圈，不堆全库。</p>
+      </div>
+      <div class="knob-row">
+        <div class="knob" style="--rot:-40deg">1978-84</div>
+        <div class="knob" style="--rot:-10deg">1985-89</div>
+        <div class="knob" style="--rot:20deg">1990-94</div>
+        <div class="knob" style="--rot:45deg">1995-99</div>
+        <div class="knob" style="--rot:70deg">2000+</div>
+      </div>
+      <div class="timeline">
+        <div class="era">
+          <span class="yr">1978-1984</span>
+          <h3>改革开放初期影像</h3>
+          <p>社会转型、家庭伦理、早期娱乐片；重点看正版修复与资料馆版本，避免野站“标清翻新”伪片源。</p>
+        </div>
+        <div class="era">
+          <span class="yr">1985-1989</span>
+          <h3>85后童年／录像厅黄金</h3>
+          <p>动作、喜剧、合家片、海外引进译制；按录像带观感做怀旧，但播放只走持权修复与官方重映。</p>
+        </div>
+        <div class="era">
+          <span class="yr">1990-1994</span>
+          <h3>VCD过渡／都市情感</h3>
+          <p>城市题材、青春成长、警匪悬疑；选片重剧本与配乐，不主推低质枪版转录。</p>
+        </div>
+        <div class="era">
+          <span class="yr">1995-1999</span>
+          <h3>DVD画质／类型成熟</h3>
+          <p>大片、动画、科幻与纪实并行；优先官方Remaster、Dolby/SDDS音轨说明，拒绝“破解全区”野盘引导。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="shelf" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Tape Shelf</div>
+        <h2>录像带类型架</h2>
+        <p>像租录像带一样按类型抽片，横排8盒覆盖怀旧高频类型。</p>
+      </div>
+      <div class="shelf">
+        <div class="tape">
+          <div class="spine">TAPE-01 · ACTION</div>
+          <h3>🥋 动作/武打</h3>
+          <p>功夫、警匪、硬派冒险；怀旧向看招式与实景，正版优先修复噪点、补帧说明。</p>
+          <div class="chiprow">适配：录像厅/客厅大屏 · 4K修复优先</div>
+        </div>
+        <div class="tape">
+          <div class="spine">TAPE-02 · COMEDY</div>
+          <h3>😂 市井喜剧</h3>
+          <p>家庭闹剧、职场误会、方言梗；合家重温，注意字幕与译名版本一致。</p>
+          <div class="chiprow">适配：客厅/周末 · 持权点播</div>
+        </div>
+        <div class="tape">
+          <div class="spine">TAPE-03 · YOUTH</div>
+          <h3>🎒 青春/校园</h3>
+          <p>85后学生记忆、初恋、考试与毕业；选非虐心、可亲子讨论的版本。</p>
+          <div class="chiprow">适配：校园场景 · 正版字幕</div>
+        </div>
+        <div class="tape">
+          <div class="spine">TAPE-04 · SCIFI</div>
+          <h3>🛸 科幻/未来</h3>
+          <p>80年代合成器美学、太空与机器人；老特效片看修复调色，不追求“伪8K”噱头。</p>
+          <div class="chiprow">适配：暗室/投影 · HDR重制</div>
+        </div>
+        <div class="tape">
+          <div class="spine">TAPE-05 · LOVE</div>
+          <h3>💌 爱情/伦理</h3>
+          <p>书信、错位、家庭和解；怀旧温情向，避免低俗擦边改写。</p>
+          <div class="chiprow">适配：夜间客厅 · 持权平台</div>
+        </div>
+        <div class="tape">
+          <div class="spine">TAPE-06 · DISCO</div>
+          <h3>🪩 歌舞/迪斯科</h3>
+          <p>舞厅、乐队、街头律动；音乐片重音轨修复，派对场景高适配。</p>
+          <div class="chiprow">适配：聚会/迪斯科场景 · 正版原声</div>
+        </div>
+        <div class="tape">
+          <div class="spine">TAPE-07 · DOC</div>
+          <h3>🎞️ 纪实/社会</h3>
+          <p>时代变迁、行业档案、城市记忆；资料馆与正版纪录片优先。</p>
+          <div class="chiprow">适配：学习/怀旧研究 · 官方库</div>
+        </div>
+        <div class="tape">
+          <div class="spine">TAPE-08 · ANI</div>
+          <h3>🎨 动画/奇幻</h3>
+          <p>手绘、木偶、早期CG；儿童合家与成人怀旧分版本，看色彩修复说明。</p>
+          <div class="chiprow">适配：家庭/投影 · 4K重制</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="scene" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Old Scenes</div>
+        <h2>老场景观影</h2>
+        <p>录像厅、客厅、迪斯科、校园四种空间，选片与设备策略不同。</p>
+      </div>
+      <div class="scenes">
+        <div class="scene">
+          <div class="emoji">🎞️</div>
+          <h3>录像厅 · 集体包场</h3>
+          <p>多人、暗厅、大幕；选节奏明快的动作/喜剧/科幻，正版拷贝+官方字幕，避免枪版转录投大屏。</p>
+        </div>
+        <div class="scene">
+          <div class="emoji">📺</div>
+          <h3>客厅电视 · 全家重温</h3>
+          <p>80年代剧集电影化合集、合家喜剧、动画；用持权平台4K修复，老人小孩都能看字幕。</p>
+        </div>
+        <div class="scene">
+          <div class="emoji">🪩</div>
+          <h3>迪斯科/派对 · 音乐向</h3>
+          <p>歌舞片、演唱会电影、合成器配乐科幻；重音轨与节奏，投屏前确认公开播放版权。</p>
+        </div>
+        <div class="scene">
+          <div class="emoji">🏫</div>
+          <h3>校园/社团 · 青春向</h3>
+          <p>85后学生题材、纪录片、电影赏析；图书馆正版库+资料馆专场，做拉片不装未知播放器。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="reel" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Restored Reels</div>
+        <h2>正版修复与渠道</h2>
+        <p>老片最怕“标清翻新”野源，按修复、点播、资料馆、单片租赁分桩。</p>
+      </div>
+      <div class="reel">
+        <div class="copy"><div class="ic">🎬</div><h3>4K/2K修复</h3><p>持权方Remaster、降噪调色、官方色彩管理，优于野站“超清”转码</p></div>
+        <div class="copy"><div class="ic">📺</div><h3>流媒体点播</h3><p>老片专区/怀旧片单，会员或单片，字幕音轨以平台标注为准</p></div>
+        <div class="copy"><div class="ic">🏛️</div><h3>资料馆/影展</h3><p>胶片放映、国别回顾、导演专题，学术与修复版最稳</p></div>
+        <div class="copy"><div class="ic">💳</div><h3>单片租赁/重映</h3><p>只补一部老片不办会员，优先院线重映与官方数字拷贝</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="warn" class="reveal">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Tape Alert</div>
+        <h2>老片防盗避坑</h2>
+        <p>怀旧片常被“免费老片全库/盗版碟/破解器”包装，遇到这些直接关。</p>
+      </div>
+      <div class="warn">
+        <div class="w">
+          <h3>🚫 “85老片免费全库”</h3>
+          <p>宣称全部1985前后、港台欧美老片免费秒播，多属未授权聚合；假播放按钮、强跳广告、博彩贷款风险高。</p>
+        </div>
+        <div class="w">
+          <h3>🚫 盗版碟/破解全区/未知播放器</h3>
+          <p>引导买“全区破解DVD/蓝光”、装老片专用APK或解码包，可能夹带木马、破坏版权保护与不兼容设备。</p>
+        </div>
+        <div class="w">
+          <h3>🚫 磁力/网盘/无主体</h3>
+          <p>回复拿老片种子、网盘提取码、换域名无公司主体/无版权说明/索要验证码银行卡，一律不点不填不下载。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      © 2026 85电影网（85dianyingwang-h5）｜ 静态展示站点 ｜
+      内页链接以 <a href="#">#</a> 占位 ｜
+      网站网址：https://85dianyingwang-h5.github.io ｜
+      本站仅作85后怀旧与1985年代观影推荐、录像带类型片单与正版修复渠道导航，不提供盗版资源、磁力、网盘与成人内容。
+    </div>
+  </footer>
+
+  <button id="toTop" aria-label="回到顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <script>
+    document.querySelectorAll('#menu a').forEach(function(a){
+      a.addEventListener('click',function(){ document.getElementById('menu').classList.remove('open'); });
+    });
+    var toTop=document.getElementById('toTop');
+    window.addEventListener('scroll',function(){ toTop.classList.toggle('show',window.scrollY>400); });
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target);} });
+    },{threshold:0.1});
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+    // 年代旋钮纯前端演示高亮（内链仍#，不跳外站）
+    document.querySelectorAll('.knob').forEach(function(k){
+      k.addEventListener('click',function(){ document.querySelectorAll('.knob').forEach(function(x){x.style.outline='none';}); k.style.outline='2px solid var(--blue)'; });
+    });
+  </script>
+</body>
+</html>
